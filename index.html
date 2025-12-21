@@ -110,11 +110,13 @@
 
    <!-- Archive Below -->
 
+  
   <section class="from-archive">
   <h2>From the Archive</h2>
 </section>
   
- <div class="entry">
+<div id="archive"> 
+  <div class="entry">
     <img src="images/DRESSING_ROOM.jpg" alt="Techno Tuesday comic">
     <div class="date">Dressing Room</div>
   </div>
@@ -398,13 +400,29 @@
   <img src="images/YEARS.jpg" alt="Techno Tuesday comic">
   <div class="date">Years</div>
 </div>
-
+</div>
   
 </main>
 
 <footer>
   <span>Techno Tuesday continues. All Work © Andy Rementer </span>
 </footer>
+
+  <script>
+  (function shuffleArchive() {
+    const container = document.getElementById("archive");
+    if (!container) return;
+
+    const items = Array.from(container.children);
+
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+
+    items.forEach(item => container.appendChild(item));
+  })();
+</script>
 
 </body>
 </html>
