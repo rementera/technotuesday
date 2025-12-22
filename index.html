@@ -27,11 +27,16 @@ a:hover {
       text-align: center;
     }
 
-    h1 {
-      margin: 0;
-      letter-spacing: 0.2em;
-      font-size: 1.4rem;
-    }
+    .site-header {
+  padding: 3rem 1rem 2rem;
+  text-align: center;
+}
+
+.site-title {
+  max-width: 240px; /* start here */
+  width: 100%;
+  height: auto;
+}
 
     main {
       max-width: 720px;
@@ -93,8 +98,12 @@ a:hover {
 
 <body>
 
-<header>
-  <h1>TECHNO TUESDAY</h1>
+<header class="site-header">
+  <img 
+    src="images/HEADER.png" 
+    alt="Techno Tuesday"
+    class="site-title"
+  >
 </header>
 
 <main>
