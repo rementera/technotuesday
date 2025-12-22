@@ -99,10 +99,11 @@ a:hover {
 <body>
 
 <header class="site-header">
-  <img 
-    src="images/HEADER.png" 
+  <img
+    src="images/HEADER.png"
     alt="Techno Tuesday"
     class="site-title"
+    id="siteTitle"
   >
 </header>
 
@@ -428,6 +429,29 @@ a:hover {
     }
 
     items.forEach(item => container.appendChild(item));
+  })();
+</script>
+
+  <script>
+  (function () {
+    const headers = [
+      "images/HEADER.png",
+      "images/HEADER_2.png",
+      "images/HEADER_3.png",
+      "images/HEADER_4.png",
+      "images/HEADER_5.png",
+      "images/HEADER_6.png",
+      "images/HEADER_7.png",
+      "images/HEADER_8.png",
+    ];
+
+    const randomHeader =
+      headers[Math.floor(Math.random() * headers.length)];
+
+    const img = document.getElementById("siteTitle");
+    if (img) {
+      img.src = randomHeader;
+    }
   })();
 </script>
 
