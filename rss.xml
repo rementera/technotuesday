@@ -7,7 +7,19 @@
     <language>en-us</language>
 
     <!-- ITEMS GO BELOW -->
-
+    
+ <item>
+  <title>Techno Tuesday — Useful Tools</title>
+  <link>https://technotuesday.com</link>
+  <guid>tt-2026-1-6</guid>
+  <pubDate>Tue, 6 Jan 2026 09:00:00 EST</pubDate>
+  <description>
+    <![CDATA[
+      <img src="https://technotuesday.com/images/2026-TT-1-6.jpg" alt="Useful Tools" />
+    ]]>
+  </description>
+</item>
+    
     <item>
   <title>Techno Tuesday — Blank Letters</title>
   <link>https://technotuesday.com</link>
