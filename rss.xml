@@ -7,6 +7,18 @@
     <language>en-us</language>
 
     <!-- ITEMS GO BELOW -->
+
+<item>
+  <title>Techno Tuesday — Smart Glasses</title>
+  <link>https://technotuesday.com</link>
+  <guid>tt-2026-1-13</guid>
+  <pubDate>Tue, 6 Jan 2026 09:00:00 EST</pubDate>
+  <description>
+    <![CDATA[
+      <img src="https://technotuesday.com/images/2026-TT-1-13.jpg" alt="Smart Glasses" />
+    ]]>
+  </description>
+</item>
     
  <item>
   <title>Techno Tuesday — Useful Tools</title>
