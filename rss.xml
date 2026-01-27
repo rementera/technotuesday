@@ -7,6 +7,19 @@
     <language>en-us</language>
 
     <!-- ITEMS GO BELOW -->
+
+    <item>
+  <title>Techno Tuesday — Rest Cycle</title>
+  <link>https://technotuesday.com</link>
+  <guid>tt-2026-1-27</guid>
+  <pubDate>Tue, 27 Jan 2026 09:00:00 EST</pubDate>
+  <description>
+    <![CDATA[
+      <img src="https://technotuesday.com/images/2026-TT-1-27.jpg" alt="Rest Cycle" />
+    ]]>
+  </description>
+</item>
+    
 <item>
   <title>Techno Tuesday — Every New Thing</title>
   <link>https://technotuesday.com</link>
