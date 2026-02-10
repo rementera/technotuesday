@@ -8,6 +8,18 @@
 
     <!-- ITEMS GO BELOW -->
 
+ <item>
+  <title>Techno Tuesday — Mindset</title>
+  <link>https://technotuesday.com</link>
+  <guid>tt-2026-2-10</guid>
+  <pubDate>Tue, 10 Feb 2026 09:00:00 EST</pubDate>
+  <description>
+    <![CDATA[
+      <img src="https://technotuesday.com/images/2026-TT-2-10.jpg" alt="Mindset" />
+    ]]>
+  </description>
+</item>
+    
      <item>
   <title>Techno Tuesday — Autonomous Vehicles</title>
   <link>https://technotuesday.com</link>
